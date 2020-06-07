@@ -57,3 +57,14 @@ print(number5)
 num5 = -42
 number6 = f"{num5: d}"  # negative integer
 print(number6)
+
+num1 = 3.1463259
+num2 = 10.290452
+
+# print('num1 is', num1,' and num2 is', num2)
+# print('num1 is {0} and num2 is {1}'.format(num1,num2))
+# print('num1 is {0:.3} and num2 is {1:.3}'.format(num1,num2))
+# print('num1 is {0:.3f} and num2 is {1:.3f}'.format(num1,num2))
+# print(f'num1 is {num1} and num2 is {num2}')
+# print(f'num1 is {num1:.3} and num2 is {num2:.3}')
+print(f"num1 is {num1:.3f} and num2 is {num2:.3f}")
