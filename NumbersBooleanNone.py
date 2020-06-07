@@ -21,3 +21,13 @@ print(age)
 exchange_rate = 1.83
 print(type(exchange_rate))
 print(exchange_rate)
+
+# Float conversions
+int_value = 1
+string_value = "1.5"
+float_value = float(int_value)
+print("int_value as float value:", float_value)
+print(type(float_value))
+float_value2 = float(string_value)
+print("string_value as float value:", float_value2)
+print(type(float_value2))
